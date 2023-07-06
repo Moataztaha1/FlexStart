@@ -3030,7 +3030,7 @@ background-color: #f51f9c;
 
   position: absolute;
 
-  left: 65px;
+  left: 70px;
 
   color: #8894f6;
  
@@ -3042,7 +3042,7 @@ background-color: #f51f9c;
 
     position: absolute;
 
-    left: -9px;
+    left: -4px;
 
     color: #8894f6;
    
@@ -4229,12 +4229,24 @@ background-color: #f51f9c;
 
 .header .container .toggle-menu {
 
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .header .container .logo span {
 
-  font-size: 28px;
+  font-size: 27px;
+}
+
+.header .logo img {
+
+  width: 17px;
+
+}
+
+.section .container img {
+
+  margin-top: -40px;
+  
 }
 
 }
@@ -4335,7 +4347,7 @@ background-color: #f51f9c;
     font-size: 22px;  
   
   }
-
+}
 @media (max-width:500px) {
 
   .blog-sec .container .activity .box-activity .info-section .info {
