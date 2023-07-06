@@ -3962,7 +3962,9 @@ background-color: #f51f9c;
   .business .container .images {
 
     margin-left: 50%;
+
     transform: translateX(-50%);
+
   }
 
   .business .container img {
@@ -3995,6 +3997,10 @@ background-color: #f51f9c;
 
   border-radius: 5px;
 
+  height: 390px;
+
+  overflow-y: auto;
+
 }
 
 .header .container .menu .drop ul.drop-ul {
@@ -4007,11 +4013,15 @@ background-color: #f51f9c;
 
   margin: 0 auto;
 
+  display: none;
+
 }
 
 .header .container .menu .drop:hover ul.drop-ul {
 
   position: relative;
+
+  display: block;
 
 }
 
@@ -4036,11 +4046,15 @@ background-color: #f51f9c;
 
   transform: translateX(-10px);
 
+  display: none;
+
 }
 
 .header .container .menu .drop ul li.sidbar:hover .drop-down {
 
   position: relative;
+
+  display: block;
 
 }
 
@@ -4058,12 +4072,18 @@ background-color: #f51f9c;
 
   flex-direction: column;
 
+  display: none;
+
 }
 
 
 .header .container .menu .megamenu:hover .mega {
 
   position: relative;
+
+  display: block;
+
+  padding: 11px 5px;
   
   }
 
@@ -4086,6 +4106,11 @@ background-color: #f51f9c;
     width: 98%;
 
     text-align: center;
+  }
+
+  .header .container .menu .drop ul li {
+
+    padding: 9px 4px;
   }
 
 }
