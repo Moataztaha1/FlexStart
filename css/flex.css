@@ -4169,7 +4169,12 @@ background-color: #f51f9c;
 
   .section .container .text h1 {
 
-    font-size: 28px;
+    font-size: 30px;
+  }
+
+  .section .container .text h2 {
+
+    font-size: 23px;
   }
 
   .about .container .content {
@@ -4324,7 +4329,7 @@ background-color: #f51f9c;
 
 .section .container img {
 
-  margin-top: -40px;
+  margin-top: -60px;
   
 }
 
@@ -4473,10 +4478,10 @@ background-color: #f51f9c;
 
 @media (max-width:426px) {
 
-  .section .container .text h1 {
+  /* .section .container .text h1 {
 
     font-size: 20px;
-  }
+  } */
 
   .events .container h3 {
 
@@ -4584,12 +4589,34 @@ background-color: #f51f9c;
 
 }
 
+@media (max-width:420px) {
+
+  .section .container .text h1 {
+
+    font-size: 27px;
+  }
+  
+  .section .container .text h2 {
+  
+     margin: 22px 0 0 0;
+    
+     font-size: 20px;
+  }
+
+  .section .container .text a {
+
+    padding: 11px 14px;
+}
+
+  }
+
 @media (max-width:414px) {
 
   .blog-sec .container .activity .box-activity .info-section .info-box {
 
     font-size: 14px;
 }
+
 
 }
 
@@ -4693,12 +4720,12 @@ background-color: #f51f9c;
 
   .section .container .text h1 {
 
-    font-size: 19px;
+    font-size: 23px;
   }
 
   .section .container .text h2 {
 
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .section .container .text a {
